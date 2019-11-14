@@ -1,0 +1,29 @@
+.banner {
+  background-size: cover;
+  background-position: top;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: aquamarine;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.blink h1 {
+  color:white;
+  animation: colorblink 0.15s infinite;
+}
+@keyframes colorblink {
+0% { }
+50% { color:orange; }
+}
