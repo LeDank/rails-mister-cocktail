@@ -1,11 +1,9 @@
 <%= render 'components/banner' %>
-<h1> <%= "Ma liste de cocktails" %></h1>
 
-
-<div class="container">
+<div class="container m">
   <div class="row">
     <% @cocktails.each do |cocktail| %>
-    <div class="col-sm-12 col-md-4">
+    <div class="col-sm-12 col-md-4 mt-3">
   <%= render 'components/card', cocktail: cocktail %>
     </div>
     <% end %>

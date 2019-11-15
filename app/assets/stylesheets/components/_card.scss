@@ -37,3 +37,8 @@
   top: -20px;
   width: 40px;
 }
+
+
+.animoBorderLeftRight {display:inline-block;position:relative;cursor:pointer}
+.animoBorderLeftRight::after{content:'';position:absolute;width:100%;transform:scaleX(0);height:2px;bottom:0;left:0;background-color:#f39c12;transform-origin:bottom right;transition:transform .4s cubic-bezier(.86,0,.07,1)}
+.animoBorderLeftRight:hover::after{transform:scaleX(1);transform-origin:bottom left}
