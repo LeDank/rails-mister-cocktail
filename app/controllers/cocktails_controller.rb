@@ -26,8 +26,9 @@ class CocktailsController < ApplicationController
   end
 
   def destroy
-    @cocktail = cocktail.find(params[:id])
+    @cocktail = Cocktail.find(params[:id])
     @cocktail.destroy
+
   end
 
   private

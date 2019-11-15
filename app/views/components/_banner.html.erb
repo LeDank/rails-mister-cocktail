@@ -2,6 +2,9 @@
   <div class="container">
     <h1 class="blink">EXPLOSIVE COCKTAILS</h1>
     <p class="blink" >Because drinking is a matter of style.</p>
+    <div class="logo">
+  <%= image_tag "https://res.cloudinary.com/du59stng5/image/upload/v1573830531/logo_ub0vlo.png", size: "150x150", :class => "rounded-circle" %>
+    </div>
     <!-- <a class="btn btn-success" href="#">Add a cocktail</a> -->
     <%= button_to "Add a new cocktail", new_cocktail_path,
       :class => "btn btn-success animoDepthButton animoDepthButton:hover", :method => :get %>

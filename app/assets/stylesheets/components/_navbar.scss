@@ -1,6 +1,8 @@
 .navbar-lewagon {
   justify-content: space-between;
-background: mediumaquamarine;}
+  background: mediumaquamarine;
+
+}
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
@@ -11,3 +13,8 @@ background: mediumaquamarine;}
   width: 60px;
   border-radius: 50%;
 }
+
+.nav-item {
+  color: white;
+}
+
